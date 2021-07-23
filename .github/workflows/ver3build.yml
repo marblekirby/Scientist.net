@@ -1,6 +1,7 @@
 name: 3.0.0 Build
 
 on:
+  workflow_dispatch:
   push:
     branches: [ 3.0.0 ]
   pull_request:
